@@ -1,0 +1,159 @@
+/* Professional Color Scheme */
+:root {
+    --primary: #3b82f6;
+    /* A brighter blue */
+    --dark: #e2e8f0;
+    /* Light gray for dark theme text */
+    --text-dark: #cbd5e1;
+    /* Main text color for dark theme */
+    --bg-main: #0f172a;
+    /* Main background */
+    --bg-card: #1e293b;
+    /* Card background */
+    --border-color: #334155;
+}
+
+/* --- THE FIX IS HERE --- */
+/* Recommendation items - Styled to be bold, bright, and professional on a dark theme */
+.recommendation-item {
+    background-color: white !important;
+    padding: 1.2rem 1.5rem !important;
+    border-radius: 10px !important;
+    border-left: 5px solid var(--primary) !important;
+    /* Bright blue accent */
+    margin-bottom: 0.8rem !important;
+    font-weight: 600 !important;
+    /* Bolder font weight */
+    line-height: 1.6 !important;
+    color: var(--text-dark) !important;
+    /* Bright text color */
+    font-size: 1rem !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25) !important;
+    transition: all 0.3s ease !important;
+}
+
+.recommendation-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--primary) !important;
+    background-color: rgba(59, 130, 246, 0.1) !important;
+}
+
+
+/* --- GENERAL STYLES FOR A PROFESSIONAL DARK THEME --- */
+
+body {
+    background-color: var(--bg-main);
+}
+
+.main-header {
+    color: white !important;
+}
+
+/* Make all general text readable */
+p,
+div,
+span {
+    color: var(--text-dark) !important;
+}
+
+.stMarkdown p {
+    color: var(--text-dark) !important;
+}
+
+/* Score and Metric Cards */
+.score-card {
+    background: linear-gradient(135deg, #4f46e5 0%, #a259ff 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.score-card h1,
+.score-card h3,
+.score-card p {
+    color: white !important;
+}
+
+/* Section cards */
+.section-card {
+    background: var(--bg-card) !important;
+    padding: 1.5rem !important;
+    border-radius: 10px !important;
+    border-left: 4px solid !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 1rem !important;
+    min-height: 200px !important;
+}
+
+.section-title {
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    color: white !important;
+}
+
+.section-content {
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    white-space: pre-line !important;
+    color: var(--text-dark) !important;
+}
+
+.education-card {
+    border-left-color: #3b82f6;
+}
+
+.experience-card {
+    border-left-color: #f97316;
+}
+
+.projects-card {
+    border-left-color: #22c55e;
+}
+
+.skills-card {
+    border-left-color: #ef4444;
+}
+
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 16px !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: var(--bg-card) !important;
+    border-radius: 8px !important;
+    color: var(--text-dark) !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+
+/* Summary Box (st.info) */
+.stAlert {
+    border-radius: 10px !important;
+    border: 1px solid var(--primary) !important;
+    background-color: rgba(59, 130, 246, 0.1) !important;
+}
+
+.stAlert * {
+    color: var(--text-dark) !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #020617 !important;
+    border-right: 1px solid var(--border-color);
+}
+
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: white !important;
+}
