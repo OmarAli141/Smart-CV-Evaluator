@@ -293,15 +293,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LangChain** - For LLM integration
 - **Community** - For feedback and contributions
 
-## 📞 Support
-
-- **Documentation**: [Full Documentation](docs/)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/smart-cv-evaluator/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/smart-cv-evaluator/discussions)
-- **Email**: support@smartcvevaluator.com
-
----
-
 <div align="center">
 
 **⭐ Star this repository if you found it helpful!**
